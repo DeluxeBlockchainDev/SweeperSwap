@@ -1,0 +1,32 @@
+{
+  "name": "@apeswapfinance/contracts",
+  "description": "Secure Smart Contract library for Solidity",
+  "version": "0.1.5",
+  "files": [
+    "**/*.sol",
+    "/build/contracts/*.json",
+    "!/mocks/**/*"
+  ],
+  "scripts": {
+    "prepare": "bash ../scripts/prepare-contracts-package.sh",
+    "prepare-docs": "cd ..; yarn run prepare-docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ApeSwapFinance/apeswap-contracts.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts",
+    "security",
+    "zeppelin"
+  ],
+  "author": "ApeSwap Community <maintainers@apeswap.finance>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ApeSwapFinance/apeswap-contracts/issues"
+  },
+  "homepage": "https://github.com/ApeSwapFinance/apeswap-contracts/"
+}
